@@ -3,7 +3,7 @@ let realData = "";
 const getNewQuotes = () => {
   let rnum = Math.floor(Math.random() * 10);
   console.log(rnum);
-  console.log(realData[0].author);
+  console.log(realData[rnum].author);
 };
 
 const getQuotes = async () => {
