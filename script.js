@@ -1,4 +1,5 @@
 let realData = "";
+const 
 
 const getNewQuotes = () => {
   let rnum = Math.floor(Math.random() * 10);
