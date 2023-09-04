@@ -7,6 +7,7 @@ const getNewQuotes = () => {
   console.log(rnum);
   console.log(realData[rnum].author);
   quotes.innerText = `${realData[rnum].text}`;
+  quotes.innerText = `${realData[rnum].author}`;
 };
 
 const getQuotes = async () => {
